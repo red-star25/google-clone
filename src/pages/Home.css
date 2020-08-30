@@ -1,0 +1,81 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+.home__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home__header a{
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15;
+}
+
+.home__header a:hover{
+    text-decoration: underline;
+}
+
+.home__headerRight{
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+.home__headerRight > .MuiSvgIcon-root{
+    margin-right: 20px;
+}
+
+.home__body{
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.home__body >img{
+    object-fit: contain;
+    height: 100px;
+}
+
+.home__bottomFirst{
+    display: flex;
+    color: #6F6F6F;
+    text-align: left;
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    border: 1px solid #e4e4e4;
+    height: 40px;
+    width: 100%;
+}
+.home__bottomSecond{
+    display: flex;
+    color: #6F6F6F;
+    text-align: left;
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    border: 1px solid #e4e4e4;
+    height: 40px;
+    width: 100vw-1;
+}
+
+
+.bottomFirst__span > span,.home__bottomFirst p{
+    padding-left: 27px;
+    font-size: 14px;
+}
+
+.home__bottomSecond{
+    display: flex;
+    justify-content: space-between;
+}
+.bottomSecond__span{
+    margin-right: 10px;
+}
